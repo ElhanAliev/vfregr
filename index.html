@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <input type="text" id="searchInput" placeholder="Search by title..." />
+      <form class="form">
+        <input value="" id="title" type="text" />
+        <input value="" id="description" type="text" />
+        <input value="" id="price" type="text" />
+        <button id="update">Обновить</button>
+      </form>
+      <select name="categories" id="categorySelect">
+        <option id="category" value="">All</option>
+        <option id="category" value="women's clothing">women's clothing</option>
+        <option id="category" value="men's clothing">men's clothing</option>
+        <option id="category" value="electronics">electronics</option>
+        <option id="category" value="jewelery">jewelery</option>
+      </select>
+      <select name="filter" id="filter">
+        <option id="filterItem" value="expensive">Дорогие</option>
+        <option id="filterItem" value="cheaper">Дешевые</option>
+      </select>
+    </div>
+    <div class="products"></div>
+  </body>
+  <script src="./index.js"></script>
+</html>

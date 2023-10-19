@@ -1,0 +1,42 @@
+.product img {
+    width: 200px;
+    height: 200px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+.form input {
+    width: 300px;
+    height: 30px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+select {
+    width: 250px;
+    height: 40px;
+}
